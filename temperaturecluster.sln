@@ -1,0 +1,160 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CityClusterApiGateway", "CityClusterApiGateway\CityClusterApiGateway.csproj", "{95B4E9CB-D997-4296-9C1E-446C9E0BBF53}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CityDataService", "CityDataService\CityDataService.csproj", "{BE82BE02-ED6D-4029-A24F-5DC7010D5BD5}"
+EndProject
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "DistrictActor", "DistrictActor\DistrictActor.sfproj", "{8FD55E01-4304-42CD-9E69-6EE2A9215388}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistrictActorService", "DistrictActorService\DistrictActorService.csproj", "{71A5371B-8CC5-4A5D-8C67-145C8A598F84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistrictActorService.Interfaces", "DistrictActorService.Interfaces\DistrictActorService.Interfaces.csproj", "{71111CBC-9A27-4AB9-BE64-8E87EDC1B61A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistrictCommon", "DistrictCommon\DistrictCommon.csproj", "{7F93C305-A65D-4E06-9855-74A7709B80B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistrictsActorService", "DistrictsActorService\DistrictsActorService.csproj", "{9EF8AC01-37AA-4E02-A07C-9CC0E856999E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistrictsActorService.Interfaces", "DistrictsActorService.Interfaces\DistrictsActorService.Interfaces.csproj", "{96507269-0B6E-470F-B565-B2041B82BE7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventsHubConsumer", "eventshubconsumer\EventsHubConsumer.csproj", "{C31AF13C-39D3-4201-BD2D-BB429E648326}"
+EndProject
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "TemperatureCluster", "temperaturecluster\TemperatureCluster.sfproj", "{33278EB3-6F19-4170-9526-241BA82776F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemperatureCommon", "TemperatureCommon\TemperatureCommon.csproj", "{AB287D49-02C0-433D-AE25-C6F7AFAA0F3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95B4E9CB-D997-4296-9C1E-446C9E0BBF53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95B4E9CB-D997-4296-9C1E-446C9E0BBF53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95B4E9CB-D997-4296-9C1E-446C9E0BBF53}.Debug|x64.ActiveCfg = Debug|x64
+		{95B4E9CB-D997-4296-9C1E-446C9E0BBF53}.Debug|x64.Build.0 = Debug|x64
+		{95B4E9CB-D997-4296-9C1E-446C9E0BBF53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95B4E9CB-D997-4296-9C1E-446C9E0BBF53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95B4E9CB-D997-4296-9C1E-446C9E0BBF53}.Release|x64.ActiveCfg = Release|x64
+		{95B4E9CB-D997-4296-9C1E-446C9E0BBF53}.Release|x64.Build.0 = Release|x64
+		{BE82BE02-ED6D-4029-A24F-5DC7010D5BD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE82BE02-ED6D-4029-A24F-5DC7010D5BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE82BE02-ED6D-4029-A24F-5DC7010D5BD5}.Debug|x64.ActiveCfg = Debug|x64
+		{BE82BE02-ED6D-4029-A24F-5DC7010D5BD5}.Debug|x64.Build.0 = Debug|x64
+		{BE82BE02-ED6D-4029-A24F-5DC7010D5BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE82BE02-ED6D-4029-A24F-5DC7010D5BD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE82BE02-ED6D-4029-A24F-5DC7010D5BD5}.Release|x64.ActiveCfg = Release|x64
+		{BE82BE02-ED6D-4029-A24F-5DC7010D5BD5}.Release|x64.Build.0 = Release|x64
+		{8FD55E01-4304-42CD-9E69-6EE2A9215388}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{8FD55E01-4304-42CD-9E69-6EE2A9215388}.Debug|x64.ActiveCfg = Debug|x64
+		{8FD55E01-4304-42CD-9E69-6EE2A9215388}.Debug|x64.Build.0 = Debug|x64
+		{8FD55E01-4304-42CD-9E69-6EE2A9215388}.Debug|x64.Deploy.0 = Debug|x64
+		{8FD55E01-4304-42CD-9E69-6EE2A9215388}.Release|Any CPU.ActiveCfg = Release|x64
+		{8FD55E01-4304-42CD-9E69-6EE2A9215388}.Release|x64.ActiveCfg = Release|x64
+		{8FD55E01-4304-42CD-9E69-6EE2A9215388}.Release|x64.Build.0 = Release|x64
+		{8FD55E01-4304-42CD-9E69-6EE2A9215388}.Release|x64.Deploy.0 = Release|x64
+		{71A5371B-8CC5-4A5D-8C67-145C8A598F84}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{71A5371B-8CC5-4A5D-8C67-145C8A598F84}.Debug|x64.ActiveCfg = Debug|x64
+		{71A5371B-8CC5-4A5D-8C67-145C8A598F84}.Debug|x64.Build.0 = Debug|x64
+		{71A5371B-8CC5-4A5D-8C67-145C8A598F84}.Release|Any CPU.ActiveCfg = Release|x64
+		{71A5371B-8CC5-4A5D-8C67-145C8A598F84}.Release|x64.ActiveCfg = Release|x64
+		{71A5371B-8CC5-4A5D-8C67-145C8A598F84}.Release|x64.Build.0 = Release|x64
+		{71111CBC-9A27-4AB9-BE64-8E87EDC1B61A}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{71111CBC-9A27-4AB9-BE64-8E87EDC1B61A}.Debug|x64.ActiveCfg = Debug|x64
+		{71111CBC-9A27-4AB9-BE64-8E87EDC1B61A}.Debug|x64.Build.0 = Debug|x64
+		{71111CBC-9A27-4AB9-BE64-8E87EDC1B61A}.Release|Any CPU.ActiveCfg = Release|x64
+		{71111CBC-9A27-4AB9-BE64-8E87EDC1B61A}.Release|x64.ActiveCfg = Release|x64
+		{71111CBC-9A27-4AB9-BE64-8E87EDC1B61A}.Release|x64.Build.0 = Release|x64
+		{7F93C305-A65D-4E06-9855-74A7709B80B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F93C305-A65D-4E06-9855-74A7709B80B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F93C305-A65D-4E06-9855-74A7709B80B5}.Debug|x64.ActiveCfg = Debug|x64
+		{7F93C305-A65D-4E06-9855-74A7709B80B5}.Debug|x64.Build.0 = Debug|x64
+		{7F93C305-A65D-4E06-9855-74A7709B80B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F93C305-A65D-4E06-9855-74A7709B80B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F93C305-A65D-4E06-9855-74A7709B80B5}.Release|x64.ActiveCfg = Release|x64
+		{7F93C305-A65D-4E06-9855-74A7709B80B5}.Release|x64.Build.0 = Release|x64
+		{9EF8AC01-37AA-4E02-A07C-9CC0E856999E}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{9EF8AC01-37AA-4E02-A07C-9CC0E856999E}.Debug|x64.ActiveCfg = Debug|x64
+		{9EF8AC01-37AA-4E02-A07C-9CC0E856999E}.Debug|x64.Build.0 = Debug|x64
+		{9EF8AC01-37AA-4E02-A07C-9CC0E856999E}.Release|Any CPU.ActiveCfg = Release|x64
+		{9EF8AC01-37AA-4E02-A07C-9CC0E856999E}.Release|x64.ActiveCfg = Release|x64
+		{9EF8AC01-37AA-4E02-A07C-9CC0E856999E}.Release|x64.Build.0 = Release|x64
+		{96507269-0B6E-470F-B565-B2041B82BE7A}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{96507269-0B6E-470F-B565-B2041B82BE7A}.Debug|x64.ActiveCfg = Debug|x64
+		{96507269-0B6E-470F-B565-B2041B82BE7A}.Debug|x64.Build.0 = Debug|x64
+		{96507269-0B6E-470F-B565-B2041B82BE7A}.Release|Any CPU.ActiveCfg = Release|x64
+		{96507269-0B6E-470F-B565-B2041B82BE7A}.Release|x64.ActiveCfg = Release|x64
+		{96507269-0B6E-470F-B565-B2041B82BE7A}.Release|x64.Build.0 = Release|x64
+		{C31AF13C-39D3-4201-BD2D-BB429E648326}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{C31AF13C-39D3-4201-BD2D-BB429E648326}.Debug|x64.ActiveCfg = Debug|x64
+		{C31AF13C-39D3-4201-BD2D-BB429E648326}.Debug|x64.Build.0 = Debug|x64
+		{C31AF13C-39D3-4201-BD2D-BB429E648326}.Release|Any CPU.ActiveCfg = Release|x64
+		{C31AF13C-39D3-4201-BD2D-BB429E648326}.Release|x64.ActiveCfg = Release|x64
+		{C31AF13C-39D3-4201-BD2D-BB429E648326}.Release|x64.Build.0 = Release|x64
+		{33278EB3-6F19-4170-9526-241BA82776F1}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{33278EB3-6F19-4170-9526-241BA82776F1}.Debug|x64.ActiveCfg = Debug|x64
+		{33278EB3-6F19-4170-9526-241BA82776F1}.Debug|x64.Build.0 = Debug|x64
+		{33278EB3-6F19-4170-9526-241BA82776F1}.Debug|x64.Deploy.0 = Debug|x64
+		{33278EB3-6F19-4170-9526-241BA82776F1}.Release|Any CPU.ActiveCfg = Release|x64
+		{33278EB3-6F19-4170-9526-241BA82776F1}.Release|x64.ActiveCfg = Release|x64
+		{33278EB3-6F19-4170-9526-241BA82776F1}.Release|x64.Build.0 = Release|x64
+		{33278EB3-6F19-4170-9526-241BA82776F1}.Release|x64.Deploy.0 = Release|x64
+		{AB287D49-02C0-433D-AE25-C6F7AFAA0F3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB287D49-02C0-433D-AE25-C6F7AFAA0F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB287D49-02C0-433D-AE25-C6F7AFAA0F3C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AB287D49-02C0-433D-AE25-C6F7AFAA0F3C}.Debug|x64.Build.0 = Debug|Any CPU
+		{AB287D49-02C0-433D-AE25-C6F7AFAA0F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB287D49-02C0-433D-AE25-C6F7AFAA0F3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB287D49-02C0-433D-AE25-C6F7AFAA0F3C}.Release|x64.ActiveCfg = Release|Any CPU
+		{AB287D49-02C0-433D-AE25-C6F7AFAA0F3C}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56399DBB-F437-4872-8EB0-F10283103985}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 12
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://testci117.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CityClusterApiGateway\\CityClusterApiGateway.csproj
+		SccProjectName1 = CityClusterApiGateway
+		SccLocalPath1 = CityClusterApiGateway
+		SccProjectUniqueName2 = CityDataService\\CityDataService.csproj
+		SccProjectName2 = CityDataService
+		SccLocalPath2 = CityDataService
+		SccProjectUniqueName3 = DistrictActor\\DistrictActor.sfproj
+		SccProjectName3 = DistrictActor
+		SccLocalPath3 = DistrictActor
+		SccProjectUniqueName4 = DistrictActorService\\DistrictActorService.csproj
+		SccProjectName4 = DistrictActorService
+		SccLocalPath4 = DistrictActorService
+		SccProjectUniqueName5 = DistrictActorService.Interfaces\\DistrictActorService.Interfaces.csproj
+		SccProjectName5 = DistrictActorService.Interfaces
+		SccLocalPath5 = DistrictActorService.Interfaces
+		SccProjectUniqueName6 = DistrictCommon\\DistrictCommon.csproj
+		SccProjectName6 = DistrictCommon
+		SccLocalPath6 = DistrictCommon
+		SccProjectUniqueName7 = DistrictsActorService\\DistrictsActorService.csproj
+		SccProjectName7 = DistrictsActorService
+		SccLocalPath7 = DistrictsActorService
+		SccProjectUniqueName8 = DistrictsActorService.Interfaces\\DistrictsActorService.Interfaces.csproj
+		SccProjectName8 = DistrictsActorService.Interfaces
+		SccLocalPath8 = DistrictsActorService.Interfaces
+		SccProjectUniqueName9 = eventshubconsumer\\EventsHubConsumer.csproj
+		SccProjectName9 = eventshubconsumer
+		SccLocalPath9 = eventshubconsumer
+		SccProjectUniqueName10 = temperaturecluster\\TemperatureCluster.sfproj
+		SccProjectName10 = temperaturecluster
+		SccLocalPath10 = temperaturecluster
+		SccProjectUniqueName11 = TemperatureCommon\\TemperatureCommon.csproj
+		SccProjectName11 = TemperatureCommon
+		SccLocalPath11 = TemperatureCommon
+	EndGlobalSection
+EndGlobal
